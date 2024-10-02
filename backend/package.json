@@ -1,0 +1,36 @@
+{
+  "name": "proyecto-integrador",
+  "version": "1.0.0",
+  "description": "## Proyecto integrador DDS",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node ./app.js",
+    "dev": "nodemon ./app.js",
+    "seed": "node ./database/seed.js",
+    "tests": "set NODE_OPTIONS=--experimental-vm-modules && jest",
+    "test:venta": "jest --testPathPattern=venta.test.js",
+    "test:disco": "jest --testPathPattern=Disco.test.js",
+    "test:genero": "jest --testPathPattern=Genero.test.js",
+    "test:sello": "jest --testPathPattern=Sello.test.js",
+    "test:interprete": "jest --testPathPattern=Interprete.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://labsys.frc.utn.edu.ar/gitlab/desarrollo-de-software1/tpis-2023/3k5-grupo-1/tp-integrador"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "sequelize": "^6.31.1",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "jest": "^27.0.4",
+    "nodemon": "^2.0.22",
+    "supertest": "^6.1.3"
+  }
+}

@@ -1,0 +1,33 @@
+# Compilado
+/dist
+/tmp
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependencias
+node_modules/
+
+# npm cache
+.npm
+
+# eslint cache
+.eslintcache
+
+# REPL history
+.node_repl_history
+
+# Salida de 'npm pack'
+*.tgz
+
+# archivo de dotenv 
+.env
